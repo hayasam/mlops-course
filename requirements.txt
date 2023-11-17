@@ -1,15 +1,23 @@
 dvc==2.10.2
 fastapi==0.78.0
 imbalanced-learn==0.8.1
-mlflow==1.23.1
-nltk==3.7
-numpy==1.19.5
+mlflow==2.8.1
+nltk==3.8.1
+numpy==1.22.2
 numpyencoder==0.3.0
 optuna==2.10.0
 pandas==1.3.5
 rich==12.4.4
 scikit-learn==0.24.2
 snorkel==0.9.8
-streamlit==1.10.0
+streamlit==1.27.0
 typer==0.4.1
 uvicorn==0.17.6
+pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pyarrow>=14.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+starlette>=0.27.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.3.3 # not directly required, pinned by Snyk to avoid a vulnerability
+validators>=0.21.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
