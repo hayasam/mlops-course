@@ -1,5 +1,5 @@
 dvc==2.10.2
-fastapi==0.78.0
+fastapi==0.109.1
 imbalanced-learn==0.8.1
 mlflow==1.23.1
 nltk==3.7
