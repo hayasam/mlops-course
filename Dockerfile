@@ -1,5 +1,5 @@
 # Base image
-FROM python:3.7-slim
+FROM python:3.14.3-slim
 
 # Install dependencies
 WORKDIR /mlops
